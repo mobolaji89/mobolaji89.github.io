@@ -42,15 +42,17 @@
 	
 	<div>
 	  <p>Please, take the survey below.</p>
-	  <form action="survey" method="post">
+	  <form action="success.html" method="post">
 	    <div>
           <label>Full Name:</label>
           <input type="name" name="password">
         </div>
+		
         <div>
          <label>Email:</label>
          <input type="email" name="email">
         </div>
+		
 		<div>
 		  <label>What state do you enjoy fishing in?</label>
 		  <select>
@@ -107,6 +109,7 @@
 			<option value="WY">Wyoming</option>
 		  </select>
 		</div>
+		
 		<div>
 		  <label>What's your favorite species to fish?:</label>
           <select>
@@ -117,7 +120,11 @@
 			<option value="Brown Trout">Brown Trout</option>
           </select>
 		</div>
-          <button type="submit">Submit</button>
+		
+		<div>
+		  <textarea rows="4" cols="50" name="comment" form="usrform">Tell me about your favorite fishing adventure or story!</textarea>
+		</div>
+        <button type="submit">Submit</button>
       </form>
 	</div>
   </body>
