@@ -1,6 +1,9 @@
 body {
+	width: 100%;
+	height: auto;
 	background-image: url("flatirons2.jpg");
 	background-repeat: no-repeat;
+	background-size: contain;
 	background-attachment: fixed;
 }
 
@@ -32,4 +35,15 @@ footer {
 
 a:visited {
 	color:green;
+}
+
+img {
+	max-width: 100%;
+	max-height: auto;
+}
+
+@media only screen and (max-width: 300px) {
+	p, h2 {
+font-size: small;
+	}
 }
