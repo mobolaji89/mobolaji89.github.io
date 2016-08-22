@@ -1,5 +1,5 @@
 body {
-	background-image: url("walleye.jpg");
+	background-image: url("flatirons2.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
@@ -14,6 +14,7 @@ h1 {
 	border: medium solid black;
 	padding: 10px;
 	margin-top: 20px;
+	background-color: white;
 }
 
 footer {
