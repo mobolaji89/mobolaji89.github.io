@@ -1,5 +1,12 @@
+body {
+	background-image: url("walleye.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
 h1 {
-	color: red;
+	color: black;
+	font-family: "Comic Sans MS";
 }
 
 .survey-all {
@@ -13,5 +20,15 @@ footer {
 	text-align:center;
 }
 #center-footer {
+	width: 20%;
 	margin: 10px auto 10px auto;
+}
+
+.comic-sans {
+	color: black;
+	font-family: "Comic Sans MS";
+}
+
+a:visited {
+	color:green;
 }
