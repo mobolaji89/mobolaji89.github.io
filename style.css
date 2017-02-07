@@ -1,5 +1,5 @@
 body {
-  background-color: #010101;
+  background-image: url("blackwood.jpg");
 }
 
 header {
@@ -15,7 +15,7 @@ nav {
   background-color:	#339595;
 }
 
-a {
+.navlink {
     display: block;
     float: left;
     color: white;
@@ -33,4 +33,10 @@ a:hover:not(.active) {
 object {
   display: block;
   margin: auto;
+}
+
+.info {
+  color: white;
+  text-align: center;
+  font-size: 200%;
 }
