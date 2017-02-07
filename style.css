@@ -1,5 +1,7 @@
 body {
   background-image: url("blackwood.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 header {
@@ -48,5 +50,5 @@ object {
 }
 
 .contact-link:hover:not(.active) {
-    color: blue;
+    color: #339595;
 }
