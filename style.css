@@ -26,8 +26,9 @@ nav {
     text-decoration: none
 }
 
-a:hover:not(.active) {
+.navlink:hover:not(.active) {
     background-color: #010101;
+    opacity: 0.9;
 }
 
 object {
@@ -39,4 +40,13 @@ object {
   color: white;
   text-align: center;
   font-size: 200%;
+}
+
+.contact-link {
+  color: white;
+  text-decoration: none
+}
+
+.contact-link:hover:not(.active) {
+    color: blue;
 }
