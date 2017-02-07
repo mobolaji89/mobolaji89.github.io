@@ -1,5 +1,5 @@
 body {
-  background-image: url("blackwood.jpg");
+  background-image: url("images/blackwood.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
@@ -36,6 +36,12 @@ nav {
 object {
   display: block;
   margin: auto;
+}
+
+#headshot {
+  padding:2px;
+  border:5px solid #339595;
+  background-color: solid black;
 }
 
 .info {
