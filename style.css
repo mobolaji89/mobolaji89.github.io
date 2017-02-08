@@ -1,7 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   background-image: url("images/blackwood.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
@@ -9,39 +15,71 @@ header {
   text-align: center;
 }
 
-nav {
-  list-style-type: none;
+.navbar {
+  list-style: none;
   margin: 0;
   padding: 0;
+  text-align: center;
   overflow: hidden;
   background-color:	#339595;
 }
 
-.navlink {
-    display: block;
-    float: left;
-    color: white;
-    font-family: ‘Arial Black’, Gadget, sans-serif;;
-    font-size: 135%;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none
+.navbar ul {
+  text-align: center;
 }
 
-.navlink:hover:not(.active) {
-    background-color: #010101;
-    opacity: 0.9;
+.navbar li {
+  font-family: ‘Arial Black’, Gadget, sans-serif;;
+  font-size: 1.4em;
+  line-height: 50px;
+  height: 50px;
 }
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  display: block;
+  transition: .3s background-color;
+}
+
+.navbar a:hover {
+  background-color: #005f5f;
+  cursor: pointer;
+}
+
+.navbar a.active {
+  background-color: #010101;
+  color: white;
+}
+
+@media screen and (min-width: 600px) {
+  .navbar li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+
+  /* Option 1 - Display Inline */
+  .navbar li {
+    display: inline-block;
+  }
 
 object {
   display: block;
   margin: auto;
 }
 
-#headshot {
-  padding:2px;
+iframe {
+  padding:3px;
   border:5px solid #339595;
-  background-color: solid black;
+}
+
+#headshot {
+  padding:3px;
+  border:5px solid #339595;
+
 }
 
 .info {
