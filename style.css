@@ -15,8 +15,8 @@ header {
   text-align: center;
 }
 
-.navbar {
-  list-style: none;
+.nav {
+  /*list-style: none;*/
   margin: 0;
   padding: 0;
   text-align: center;
@@ -24,36 +24,36 @@ header {
   background-color:	#339595;
 }
 
-.navbar ul {
+.nav ul {
   text-align: center;
 }
 
-.navbar li {
-  font-family: ‘Arial Black’, Gadget, sans-serif;;
+.nav li {
+  font-family: ‘Roboto’, sans-serif;
   font-size: 1.4em;
   line-height: 50px;
   height: 50px;
 }
 
-.navbar a {
+.nav a {
   text-decoration: none;
   color: white;
   display: block;
   transition: .3s background-color;
 }
 
-.navbar a:hover {
+.nav a:hover {
   background-color: #005f5f;
   cursor: pointer;
 }
 
-.navbar a.active {
+.nav a.active {
   background-color: #010101;
   color: white;
 }
 
 @media screen and (min-width: 600px) {
-  .navbar li {
+  .nav li {
     width: 120px;
     border-bottom: none;
     height: 50px;
@@ -62,8 +62,9 @@ header {
   }
 
   /* Option 1 - Display Inline */
-  .navbar li {
+  .nav li {
     display: inline-block;
+    margin-right: -4;
   }
 
 object {
