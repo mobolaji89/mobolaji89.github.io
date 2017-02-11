@@ -95,6 +95,28 @@ h2 {
   margin-bottom: 25px;
 }
 
+@media screen and (max-width: 615px) {
+  .nav li {
+    border-bottom: 1px solid black;
+  }
+  h1 {
+    font-size: 80%;
+  }
+
+  h2 {
+    font-size: 70%;
+  }
+
+  h3 {
+    font-size: 70%;
+  }
+
+  p {
+    font-size: 50%;
+  }
+
+}
+
 p  {
   margin-top: 15px;
   margin-bottom: 25px;
@@ -133,7 +155,7 @@ p  {
 
 }
 .contact-info {
-  margin-top: 75px;
+  margin-top: 50px;
 }
 
 .links {
