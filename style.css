@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+#page2, #page3, #page4, #page5 {
+  display: none;
+}
+
 body {
   background-image: url("images/blackwood.jpg");
   background-repeat: no-repeat;
@@ -68,10 +72,15 @@ header {
   }
 }
 
-.info {
+#info {
   color: white;
   text-align: center;
   font-size: 200%;
+}
+
+#iterm {
+  margin-top: 5px;
+  border-radius: 7px;
 }
 
 h1 {
@@ -80,12 +89,13 @@ h1 {
 }
 
 h2 {
-  margin-bottom: 40px;
+  margin-top: -15px;
+  margin-bottom: 25px;
 }
 
 p  {
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 15px;
+  margin-bottom: 25px;
 }
 
 object {
@@ -97,12 +107,23 @@ iframe {
   padding:3px;
   border:5px solid #339595;
   margin-bottom: 30px;
+  border-radius: 7px;
 }
 
 #headshot {
   padding:3px;
   border:5px solid #339595;
+  border-radius: 7px;
 
+}
+.contact-info {
+  margin-top: 75px;
+}
+
+.links {
+  color: #005f5f;
+  font-size: 120%;
+  font-weight: bolder;
 }
 
 .contact-link {
