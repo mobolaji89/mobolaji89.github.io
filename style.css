@@ -128,6 +128,8 @@ p  {
   padding:3px;
   border:5px solid #339595;
   border-radius: 7px;
+  max-width: 40%;
+  height: auto;
 
 }
 .contact-info {
