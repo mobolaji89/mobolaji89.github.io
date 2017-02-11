@@ -166,10 +166,12 @@ p  {
 
 .contact-link {
   color: white;
-  text-decoration: none
+  text-decoration: none;
+  font-size: 100%;
+  transition: font-size .4s;
 }
 
-.contact-link:hover:not(.active) {
+.contact-link:hover {
     color: #339595;
     font-size: 130%;
     transition: font-size .4s;
