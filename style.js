@@ -10,7 +10,7 @@ $(function() {
         $(".nav a").removeClass("active");
         $(this).addClass("active");
         $('#info section').hide();
-        $($linkClicked).fadeIn('slow');
+        $($linkClicked).fadeIn('fast');
         return false;
       }
       else {
