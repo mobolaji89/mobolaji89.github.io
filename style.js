@@ -9,7 +9,8 @@ $(function() {
       if (!$(this).hasClass("active")) {
         $(".nav a").removeClass("active");
         $(this).addClass("active");
-        $('#info section').hide();
+        $('#info section').fadeOut('fast');
+        // $('#info section').hide();
         $($linkClicked).fadeIn('fast');
         return false;
       }

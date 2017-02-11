@@ -15,7 +15,7 @@
       <h1>Mobolaji David's Portfolio</h1>
       <div class="nav">
          <ul>
-           <li><a class="active" href="#page1" id="page-link-1">Home</a></li>
+           <li><a href="#page1" id="page-link-1" class="active">Home</a></li>
            <li><a href="#page2" id="page-link-2">Resume</a></li>
            <li><a href="#page3" id="page-link-3">Portfolio</a></li>
            <li><a href="#page4" id="page-link-4">About</a></li>
@@ -36,10 +36,11 @@
       <section id="page2">
         <div class="grid">
           <div class="col-1-1">
-            <div class="content">
-                <object data="Resume2017.pdf" type="application/pdf" width="900" height="1200">
+            <div class="resume">
+                <!-- <object data="Resume2017.pdf" type="application/pdf" width="100%" height="1200">
                   <embed src="Resume2017.pdf" type="application/pdf" />
-                </object>
+                </object> -->
+                <embed src="Resume2017.pdf" width="100%" height="1200px" />
             </div>
           </div>
         </div>
@@ -57,8 +58,10 @@
 
               <h3>barID</h3>
               <p>barID is a React Native iOS and Android mobile application that creates the convenience of walking into and out of a bar, without waiting in extensive lines to create a tab and also checkout of a bar.</p>
-              <iframe width="640" height="360" src="https://www.youtube.com/embed/PWANijn6M6Q">
-              </iframe>
+              <div class="youtube-container">
+                <iframe id="barid" width="100%" height="360" src="https://www.youtube.com/embed/PWANijn6M6Q">
+                </iframe>
+              </div>
             </div>
           </div>
 

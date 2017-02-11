@@ -79,6 +79,8 @@ header {
 }
 
 #iterm {
+  max-width: 100%;
+  height: auto;
   margin-top: 5px;
   border-radius: 7px;
 }
@@ -98,15 +100,27 @@ p  {
   margin-bottom: 25px;
 }
 
-object {
+/*object {
   display: block;
-  margin: auto;
+  max-width: 100%;
+  object-fit: contain;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}*/
+
+.resume {
+  display: block;
+  margin-bottom: 20px;
 }
 
-iframe {
+.youtube-container {
+  margin-right: 15px;
+}
+
+#barid {
   padding:3px;
   border:5px solid #339595;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
   border-radius: 7px;
 }
 
@@ -121,8 +135,8 @@ iframe {
 }
 
 .links {
-  color: #005f5f;
-  font-size: 120%;
+  color: #005f5f
+  font-size: 100%;
   font-weight: bolder;
 }
 
@@ -133,4 +147,6 @@ iframe {
 
 .contact-link:hover:not(.active) {
     color: #339595;
+    font-size: 130%;
+    transition: font-size .4s;
 }
