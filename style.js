@@ -7,6 +7,7 @@ $(function() {
     var $linkClicked = $(this).attr('href');
     document.location.hash = $linkClicked;
       if (!$(this).hasClass("active")) {
+        history.pushState("", document.title, window.location.pathname);
         $(".nav a").removeClass("active");
         $(this).addClass("active");
         $('#info section').fadeOut('fast');
@@ -15,6 +16,7 @@ $(function() {
         return false;
       }
       else {
+          history.pushState("", document.title, window.location.pathname);
           return false;
       }
   });
@@ -25,17 +27,17 @@ $(function() {
       $("#" + hash + "-link").trigger("click");
     break;
     case 'page2' :
-        $("#" + hash + "-link").trigger("click");
-        break;
+      $("#" + hash + "-link").trigger("click");
+      break;
     case 'page3' :
-        $("#" + hash + "-link").trigger("click");
-        break;
+      $("#" + hash + "-link").trigger("click");
+      break;
     case 'page4' :
-        $("#" + hash + "-link").trigger("click");
-        break;
+      $("#" + hash + "-link").trigger("click");
+      break;
     case 'page5' :
-        $("#" + hash + "-link").trigger("click");
-        break;
+      $("#" + hash + "-link").trigger("click");
+      break;
   }
 });
 
