@@ -20,6 +20,20 @@ header {
   text-align: center;
 }
 
+#header {
+  font-family: 'Share Tech', sans-serif;
+  font-size: 4em;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+#header2 {
+  font-family: 'Share Tech', sans-serif;
+  font-size: 2em;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
 .nav {
   /*clear: both;*/
   list-style-type: none;
