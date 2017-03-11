@@ -207,11 +207,23 @@ height: 100%;
   padding-right: 30px;
 }
 
-#barid {
+#barID {
   padding:3px;
   border:5px solid #339595;
   margin-bottom: 15px;
   border-radius: 7px;
+}
+
+#wavs_container {
+  margin-top: 40px;
+}
+
+#wavs {
+  padding:3px;
+  border:5px solid #339595;
+  border-radius: 7px;
+  max-width: 90%;
+  height: auto;
 }
 
 #headshot {
