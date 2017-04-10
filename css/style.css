@@ -88,6 +88,10 @@ header {
     display: inline-block;
     margin-right: -4px;
   }
+
+  .description {
+    font-size: 75%;
+  }
 }
 
 #info {
@@ -110,8 +114,13 @@ h1 {
 }
 
 h2 {
+  font-size: 120%;
   margin-top: -15px;
   margin-bottom: 25px;
+}
+
+h3 {
+  font-size: 100%
 }
 
 @media screen and (max-width: 615px) {
@@ -143,7 +152,7 @@ h2 {
     font-size: 70%;
   }
 
-  p {
+  .description {
     font-size: 50%;
   }
 
@@ -247,7 +256,7 @@ height: 100%;
 .contact-link {
   color: white;
   text-decoration: none;
-  font-size: 100%;
+  font-size: 80%;
   transition: font-size .3s;
 }
 
