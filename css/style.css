@@ -235,6 +235,18 @@ height: 100%;
   height: auto;
 }
 
+#weather_container {
+  margin-top: 40px;
+}
+
+#weather {
+  padding:3px;
+  border:5px solid #339595;
+  border-radius: 7px;
+  max-width: 90%;
+  height: auto;
+}
+
 #headshot {
   padding:3px;
   border:5px solid #339595;
